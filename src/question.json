@@ -1,0 +1,115 @@
+{
+    "quizzes": [
+      {
+        "question": "What is the purpose of React?",
+        "options": [
+          "To build back-end applications",
+          "To manage databases",
+          "To build user interfaces",
+          "To manage servers"
+        ],
+        "correctAnswer": 2,
+        "score":3
+      },
+      {
+        "question": "What is a component in React?",
+        "options": [
+          "A reusable piece of UI",
+          "A database object",
+          "A function that runs the backend",
+          "A CSS styling rule"
+        ],
+        "correctAnswer": 0,
+        "score":3
+      },
+      {
+        "question": "Which hook is used to handle side effects in React?",
+        "options": [
+          "useContext",
+          "useEffect",
+          "useState",
+          "useReducer"
+        ],
+        "correctAnswer": 1,
+        "score":3
+      },
+      {
+        "question": "How do you create a state in a React component?",
+        "options": [
+          "With the useState hook",
+          "With the createState hook",
+          "With the setState method",
+          "By directly modifying the state object"
+        ],
+        "correctAnswer": 0,
+        "score":3
+      },
+      {
+        "question": "Which of the following is a correct way to pass data between React components?",
+        "options": [
+          "Using callbacks",
+          "Using props",
+          "Using Redux only",
+          "Using context API only"
+        ],
+        "correctAnswer": 1,
+        "score":3
+      },
+      {
+        "question": "What is the virtual DOM in React?",
+        "options": [
+          "An in-memory representation of the actual DOM",
+          "A direct manipulation of the DOM",
+          "A new HTML document",
+          "A way to access JavaScript directly in HTML"
+        ],
+        "correctAnswer": 0,
+        "score":3
+      },
+      {
+        "question": "What is JSX in React?",
+        "options": [
+          "A JavaScript extension that allows writing HTML within JavaScript",
+          "A CSS preprocessor",
+          "A JavaScript library",
+          "A way to make API calls"
+        ],
+        "correctAnswer": 0,
+        "score":3
+      },
+      {
+        "question": "How can you lift the state up in React?",
+        "options": [
+          "By passing state as props to child components",
+          "By using the useEffect hook",
+          "By using the setState method",
+          "By using Redux"
+        ],
+        "correctAnswer": 0,
+        "score":3
+      },
+      {
+        "question": "Which of these is a correct way to handle forms in React?",
+        "options": [
+          "Using useState to control form inputs",
+          "Using raw HTML forms only",
+          "Submitting directly without handling data",
+          "Using window objects to collect form data"
+        ],
+        "correctAnswer": 0,
+        "score":3
+      },
+      {
+        "question": "What is the use of keys in React lists?",
+        "options": [
+          "To uniquely identify elements in the list",
+          "To style the list items",
+          "To control the rendering order of the list",
+          "To provide security for the list items"
+        ],
+        "correctAnswer": 0,
+        "score":3
+      }
+    ]
+  }
+  

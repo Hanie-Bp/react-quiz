@@ -1,0 +1,9 @@
+button {
+    background: linear-gradient(135deg, #A855F6, #EB489A);
+}
+
+.parent {
+    width: 600px !important;
+    height: 350px;
+}
+
