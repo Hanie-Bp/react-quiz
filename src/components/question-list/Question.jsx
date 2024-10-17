@@ -19,7 +19,7 @@ const Question = ({
   const [quizEnded, setQuizEnded] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const [isAnswered, setIsAnswered] = useState(false);
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState(60);
   // console.log(score);
 
   const handleQuit = () => {
@@ -61,7 +61,7 @@ const Question = ({
   const handleNext = () => {
     setSelectedOption(null);
     setIsAnswered(false);
-    setSeconds(10);
+    setSeconds(60);
     setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
   };
 

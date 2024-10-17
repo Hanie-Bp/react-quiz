@@ -5,8 +5,8 @@ const Timer = ({ handleNext, seconds, setSeconds }) => {
     const minutes = Math.floor(timeInSeconds / 60)
       .toString()
       .padStart(2, 0);
-    const seconds = (timeInSeconds % 60).toString().padStart(2, 0);
-    return `${minutes}:${seconds}`;
+    const second = (timeInSeconds % 60).toString().padStart(2, 0);
+    return `${minutes}:${second}`;
   };
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Timer = ({ handleNext, seconds, setSeconds }) => {
     return () => clearInterval(timer);
   }, [seconds]);
 
-  return <span className="text-white">{formatTime(seconds)}</span>;
+  return <span className="text-white ms-1">{formatTime(seconds)}</span>;
 };
 
 export default Timer;

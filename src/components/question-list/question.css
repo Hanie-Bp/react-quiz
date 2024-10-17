@@ -34,9 +34,9 @@ progress::-webkit-progress-value {
 }
 
 .correct {
-    background-color: aqua;
+    background: linear-gradient(100deg, #008B8B, #32DE84);
 }
 
 .wrong {
-    background-color: red;
+    background: linear-gradient(100deg, #FF033E, #FD5C63);
 }
