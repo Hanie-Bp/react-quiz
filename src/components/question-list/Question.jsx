@@ -78,7 +78,7 @@ const Question = ({
           Questions {currentQuestion - 1}/{totalQuestions}
         </div>
       </div>
-      <div className="">
+      <div className="mt-3">
         <h3 className="text-center">{question.question}</h3>
         <div className="options mt-3  ">
           {question.options.map((option, index) => {
