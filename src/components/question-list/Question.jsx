@@ -66,14 +66,14 @@ const Question = ({
   };
 
   return (
-    <div className="question-container d-flex flex-column parent  justify-content-center ">
+    <div className="question-container d-flex flex-column parent text-white  justify-content-center ">
       <div className="title d-flex  mb-3">
         <i className="bi bi-flower3 text-white fs-1"></i>
         <h3 className="text-white   mx-0 my-auto">The React Quiz </h3>
       </div>
       {/*  */}
       <div className="progress-container">
-        <progress value={currentQuestion - 1} max="10"></progress>
+        <progress value={currentQuestion - 1} max="5"></progress>
         <div className="progress-text">
           Questions {currentQuestion - 1}/{totalQuestions}
         </div>

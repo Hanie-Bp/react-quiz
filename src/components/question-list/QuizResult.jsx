@@ -4,7 +4,7 @@ import './quizResult.css';
 const QuizResult = ({retry,correctAnswer,score}) => {
   
   return (
-    <div className='quiz-result d-flex flex-column justify-content-center align-items-center'>
+    <div className='quiz-result d-flex flex-column text-white justify-content-center align-items-center'>
       <h1 className='mb-4'>Quiz completed</h1>
       <h4>Correct Answers:{correctAnswer}</h4>
       <p>Your Score:{score}</p>

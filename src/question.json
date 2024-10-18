@@ -1,5 +1,6 @@
 {
-    "quizzes": [
+  "quizzes": {
+    "React": [
       {
         "question": "What is the purpose of React?",
         "options": [
@@ -9,7 +10,7 @@
           "To manage servers"
         ],
         "correctAnswer": 2,
-        "score":3
+        "score": 3
       },
       {
         "question": "What is a component in React?",
@@ -20,7 +21,7 @@
           "A CSS styling rule"
         ],
         "correctAnswer": 0,
-        "score":3
+        "score": 3
       },
       {
         "question": "Which hook is used to handle side effects in React?",
@@ -31,7 +32,7 @@
           "useReducer"
         ],
         "correctAnswer": 1,
-        "score":3
+        "score": 3
       },
       {
         "question": "How do you create a state in a React component?",
@@ -42,7 +43,7 @@
           "By directly modifying the state object"
         ],
         "correctAnswer": 0,
-        "score":3
+        "score": 3
       },
       {
         "question": "Which of the following is a correct way to pass data between React components?",
@@ -53,63 +54,179 @@
           "Using context API only"
         ],
         "correctAnswer": 1,
-        "score":3
-      },
+        "score": 3
+      }
+    ],
+    "Angular": [
       {
-        "question": "What is the virtual DOM in React?",
+        "question": "What is Angular primarily used for?",
         "options": [
-          "An in-memory representation of the actual DOM",
-          "A direct manipulation of the DOM",
-          "A new HTML document",
-          "A way to access JavaScript directly in HTML"
+          "To create web applications",
+          "To handle server-side logic",
+          "For database management",
+          "To write CSS"
         ],
         "correctAnswer": 0,
-        "score":3
+        "score": 3
       },
       {
-        "question": "What is JSX in React?",
+        "question": "Which of the following is a core concept of Angular?",
         "options": [
-          "A JavaScript extension that allows writing HTML within JavaScript",
-          "A CSS preprocessor",
-          "A JavaScript library",
-          "A way to make API calls"
+          "Components",
+          "Templates",
+          "Services",
+          "All of the above"
         ],
-        "correctAnswer": 0,
-        "score":3
+        "correctAnswer": 3,
+        "score": 3
       },
       {
-        "question": "How can you lift the state up in React?",
+        "question": "What is a service in Angular?",
         "options": [
-          "By passing state as props to child components",
-          "By using the useEffect hook",
-          "By using the setState method",
-          "By using Redux"
+          "A reusable piece of code",
+          "A UI component",
+          "A directive",
+          "A router feature"
         ],
         "correctAnswer": 0,
-        "score":3
+        "score": 3
       },
       {
-        "question": "Which of these is a correct way to handle forms in React?",
+        "question": "How do you create a component in Angular?",
         "options": [
-          "Using useState to control form inputs",
-          "Using raw HTML forms only",
-          "Submitting directly without handling data",
-          "Using window objects to collect form data"
+          "Using the @Component decorator",
+          "Using the @Directive decorator",
+          "With a JavaScript function",
+          "By extending a class"
         ],
         "correctAnswer": 0,
-        "score":3
+        "score": 3
       },
       {
-        "question": "What is the use of keys in React lists?",
+        "question": "What does the Angular CLI do?",
         "options": [
-          "To uniquely identify elements in the list",
-          "To style the list items",
-          "To control the rendering order of the list",
-          "To provide security for the list items"
+          "Builds the application",
+          "Creates components and services",
+          "Serves the application",
+          "All of the above"
+        ],
+        "correctAnswer": 3,
+        "score": 3
+      }
+    ],
+    "Vue": [
+      {
+        "question": "What is Vue.js primarily used for?",
+        "options": [
+          "Backend development",
+          "Building user interfaces",
+          "Database interactions",
+          "Mobile application development"
+        ],
+        "correctAnswer": 1,
+        "score": 3
+      },
+      {
+        "question": "What directive is used to bind data in Vue?",
+        "options": [
+          "v-bind",
+          "v-model",
+          "v-for",
+          "v-if"
+        ],
+        "correctAnswer": 1,
+        "score": 3
+      },
+      {
+        "question": "What is a Vue instance?",
+        "options": [
+          "The root of a Vue application",
+          "A method for routing",
+          "A component definition",
+          "A directive"
         ],
         "correctAnswer": 0,
-        "score":3
+        "score": 3
+      },
+      {
+        "question": "How do you create a computed property in Vue?",
+        "options": [
+          "Using data() method",
+          "Using computed property in an object",
+          "Using methods",
+          "Using lifecycle hooks"
+        ],
+        "correctAnswer": 1,
+        "score": 3
+      },
+      {
+        "question": "What is the purpose of the 'key' attribute in Vue lists?",
+        "options": [
+          "To optimize rendering",
+          "To style list items",
+          "To hold data",
+          "To bind events"
+        ],
+        "correctAnswer": 0,
+        "score": 3
+      }
+    ],
+    "Svelte": [
+      {
+        "question": "What is a unique feature of Svelte?",
+        "options": [
+          "It compiles components at build time",
+          "It uses a virtual DOM",
+          "It requires a large runtime library",
+          "It only works with TypeScript"
+        ],
+        "correctAnswer": 0,
+        "score": 3
+      },
+      {
+        "question": "How do you create reactive variables in Svelte?",
+        "options": [
+          "Using 'let' keyword",
+          "Using 'reactive' keyword",
+          "Using 'var' keyword",
+          "Using 'const' keyword"
+        ],
+        "correctAnswer": 0,
+        "score": 3
+      },
+      {
+        "question": "What is the purpose of the `bind` directive in Svelte?",
+        "options": [
+          "To create two-way data binding",
+          "To bind events",
+          "To apply styles",
+          "To import components"
+        ],
+        "correctAnswer": 0,
+        "score": 3
+      },
+      {
+        "question": "How do you define a component in Svelte?",
+        "options": [
+          "By creating a .svelte file",
+          "By creating a JavaScript file",
+          "By using HTML only",
+          "By using a class"
+        ],
+        "correctAnswer": 0,
+        "score": 3
+      },
+      {
+        "question": "What does the `on:` directive do in Svelte?",
+        "options": [
+          "Handles events",
+          "Creates reactive statements",
+          "Binds data",
+          "Styles elements"
+        ],
+        "correctAnswer": 0,
+        "score": 3
       }
     ]
   }
-  
+}
